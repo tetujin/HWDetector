@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F36A573231A4CBD00399D7F /* common.res in Resources */ = {isa = PBXBuildFile; fileRef = 4F36A571231A4CAF00399D7F /* common.res */; };
+		4F36A574231A4CC800399D7F /* jarvis.pmdl in Resources */ = {isa = PBXBuildFile; fileRef = 4F36A572231A4CAF00399D7F /* jarvis.pmdl */; };
+		4F36A57B231A4CE200399D7F /* SnowboyWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F36A579231A4CE200399D7F /* SnowboyWrapper.mm */; };
+		4F36A57C231A4EC100399D7F /* SnowboyWrapper.h in Sources */ = {isa = PBXBuildFile; fileRef = 4F36A578231A4CE200399D7F /* SnowboyWrapper.h */; };
+		4F36A57D231A4EC900399D7F /* snowboy-detect.h in Sources */ = {isa = PBXBuildFile; fileRef = 4F36A57A231A4CE200399D7F /* snowboy-detect.h */; };
+		4F36A581231A4F7000399D7F /* libsnowboy-detect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F36A580231A4F7000399D7F /* libsnowboy-detect.a */; };
+		4F36A583231A51EA00399D7F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F36A582231A51EA00399D7F /* Accelerate.framework */; };
 		4F3AB4ED2319788D00046DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3AB4EC2319788D00046DE9 /* AppDelegate.swift */; };
 		4F3AB4EF2319788D00046DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3AB4EE2319788D00046DE9 /* ViewController.swift */; };
 		4F3AB4F22319788D00046DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F3AB4F02319788D00046DE9 /* Main.storyboard */; };
@@ -15,6 +22,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F36A567231A4C7C00399D7F /* common.res */ = {isa = PBXFileReference; lastKnownFileType = file; name = common.res; path = "../../../../Desktop/snowboy-swift/common.res"; sourceTree = "<group>"; };
+		4F36A568231A4C7C00399D7F /* jarvis.pmdl */ = {isa = PBXFileReference; lastKnownFileType = file; name = jarvis.pmdl; path = "../../../../Desktop/snowboy-swift/jarvis.pmdl"; sourceTree = "<group>"; };
+		4F36A571231A4CAF00399D7F /* common.res */ = {isa = PBXFileReference; lastKnownFileType = file; path = common.res; sourceTree = "<group>"; };
+		4F36A572231A4CAF00399D7F /* jarvis.pmdl */ = {isa = PBXFileReference; lastKnownFileType = file; path = jarvis.pmdl; sourceTree = "<group>"; };
+		4F36A577231A4CE200399D7F /* HWDetector-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HWDetector-Bridging-Header.h"; sourceTree = "<group>"; };
+		4F36A578231A4CE200399D7F /* SnowboyWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowboyWrapper.h; sourceTree = "<group>"; };
+		4F36A579231A4CE200399D7F /* SnowboyWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SnowboyWrapper.mm; sourceTree = "<group>"; };
+		4F36A57A231A4CE200399D7F /* snowboy-detect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "snowboy-detect.h"; sourceTree = "<group>"; };
+		4F36A57E231A4F2300399D7F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4F36A580231A4F7000399D7F /* libsnowboy-detect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libsnowboy-detect.a"; sourceTree = "<group>"; };
+		4F36A582231A51EA00399D7F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		4F36A584231A569300399D7F /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		4F3AB4E92319788D00046DE9 /* HWDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F3AB4EC2319788D00046DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F3AB4EE2319788D00046DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +41,7 @@
 		4F3AB4F32319788F00046DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F3AB4F62319788F00046DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F3AB4F82319788F00046DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F3AB4FE231978CC00046DE9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F36A581231A4F7000399D7F /* libsnowboy-detect.a in Frameworks */,
+				4F36A583231A51EA00399D7F /* Accelerate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F36A566231A4C7C00399D7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F36A584231A569300399D7F /* CoreAudio.framework */,
+				4F36A582231A51EA00399D7F /* Accelerate.framework */,
+				4F36A580231A4F7000399D7F /* libsnowboy-detect.a */,
+				4F36A57E231A4F2300399D7F /* AVFoundation.framework */,
+				4F36A567231A4C7C00399D7F /* common.res */,
+				4F36A568231A4C7C00399D7F /* jarvis.pmdl */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4F3AB4E02319788D00046DE9 = {
 			isa = PBXGroup;
 			children = (
 				4F3AB4EB2319788D00046DE9 /* HWDetector */,
 				4F3AB4EA2319788D00046DE9 /* Products */,
+				4F36A566231A4C7C00399D7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +90,19 @@
 		4F3AB4EB2319788D00046DE9 /* HWDetector */ = {
 			isa = PBXGroup;
 			children = (
+				4F3AB4FE231978CC00046DE9 /* README.md */,
 				4F3AB4EC2319788D00046DE9 /* AppDelegate.swift */,
 				4F3AB4EE2319788D00046DE9 /* ViewController.swift */,
 				4F3AB4F02319788D00046DE9 /* Main.storyboard */,
 				4F3AB4F32319788F00046DE9 /* Assets.xcassets */,
 				4F3AB4F52319788F00046DE9 /* LaunchScreen.storyboard */,
 				4F3AB4F82319788F00046DE9 /* Info.plist */,
+				4F36A571231A4CAF00399D7F /* common.res */,
+				4F36A572231A4CAF00399D7F /* jarvis.pmdl */,
+				4F36A57A231A4CE200399D7F /* snowboy-detect.h */,
+				4F36A578231A4CE200399D7F /* SnowboyWrapper.h */,
+				4F36A579231A4CE200399D7F /* SnowboyWrapper.mm */,
+				4F36A577231A4CE200399D7F /* HWDetector-Bridging-Header.h */,
 			);
 			path = HWDetector;
 			sourceTree = "<group>";
@@ -96,6 +139,12 @@
 				TargetAttributes = {
 					4F3AB4E82319788D00046DE9 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,7 +173,9 @@
 			files = (
 				4F3AB4F72319788F00046DE9 /* LaunchScreen.storyboard in Resources */,
 				4F3AB4F42319788F00046DE9 /* Assets.xcassets in Resources */,
+				4F36A573231A4CBD00399D7F /* common.res in Resources */,
 				4F3AB4F22319788D00046DE9 /* Main.storyboard in Resources */,
+				4F36A574231A4CC800399D7F /* jarvis.pmdl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +188,9 @@
 			files = (
 				4F3AB4EF2319788D00046DE9 /* ViewController.swift in Sources */,
 				4F3AB4ED2319788D00046DE9 /* AppDelegate.swift in Sources */,
+				4F36A57B231A4CE200399D7F /* SnowboyWrapper.mm in Sources */,
+				4F36A57D231A4EC900399D7F /* snowboy-detect.h in Sources */,
+				4F36A57C231A4EC100399D7F /* SnowboyWrapper.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,15 +336,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FH352PYMNC;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HWDetector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HWDetector",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuukinishiyama.app.sample.HWDetector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HWDetector/HWDetector-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,15 +363,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FH352PYMNC;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HWDetector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HWDetector",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuukinishiyama.app.sample.HWDetector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HWDetector/HWDetector-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
